@@ -1,0 +1,29 @@
+h1 h2 h3 p {
+    font-family:georgia, serif;
+}
+
+header {
+    color: #DCC7AA;
+    background-color: #5C4033;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    gap: 12px;
+    position: sticky;
+    align-items: center;
+    
+}
+
+nav a {
+    color: #DCC7AA;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.hero {
+    color: #DCC7AA;
+    text-align: center;
+    background-color: #8B5E3C ;
+
+}
