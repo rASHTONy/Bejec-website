@@ -2,13 +2,19 @@ h1 h2 h3 p {
     font-family:georgia, serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 header {
     color: #DCC7AA;
-    background-color: #5C4033;
+    background-color: #8B5E3C;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    padding: 10px 24px;
+    padding: 5px 24px;
     gap: 12px;
     position: sticky;
     align-items: center;
@@ -22,7 +28,7 @@ nav a {
 }
 
 .hero {
-    color: #DCC7AA;
+    color: #8B5E3C;
     text-align: center;
     background-color: #8B5E3C ;
 
@@ -34,3 +40,21 @@ nav a {
     text-align: left;
 }
 
+#home {
+    background-color: #DCC7AA;
+}
+
+.logo {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 24px;
+}
+
+.beige {
+    background: #DCC7AA;
+}
