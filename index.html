@@ -23,7 +23,7 @@
 <main>
 
 
-</main>
+
     <section id="home" class="hero beige">
 
     <h2>Good food, good coffee, good company.</h2>
@@ -61,6 +61,67 @@
         </div>
     </section>
 
+    <section id="delivery" class="beige">
+      <div class="container">
+        <h2>Order for delivery</h2>
+        <!-- A form collects information. Each input has a "name" and a matching label. -->
+        <form class="form" action="#" method="post">
+          <label for="d-name">Full name</label>
+          <input type="text" id="d-name" name="name" required>
+
+          <label for="d-phone">Phone number</label>
+          <input type="tel" id="d-phone" name="phone" required>
+
+          <label for="d-address">Delivery address</label>
+          <input type="text" id="d-address" name="address" required>
+
+          <label for="d-order">Your order</label>
+          <textarea id="d-order" name="order" rows="4" placeholder="Example: 1 Cheeseburger with Fries, 1 Iced Coffee" required></textarea>
+
+          <label for="d-notes">Notes (optional)</label>
+          <textarea id="d-notes" name="notes" rows="2"></textarea>
+
+          <button class="button" type="submit">Send order</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== TABLE RESERVATION FORM ========== -->
+    <section id="reservation">
+      <div class="container">
+        <h2>Reserve a table</h2>
+        <form class="form" action="#" method="post">
+          <label for="r-name">Full name</label>
+          <input type="text" id="r-name" name="name" required>
+
+          <label for="r-phone">Phone number</label>
+          <input type="tel" id="r-phone" name="phone" required>
+
+          <label for="r-date">Date</label>
+          <input type="date" id="r-date" name="date" required>
+
+          <label for="r-time">Time</label>
+          <input type="time" id="r-time" name="time" required>
+
+          <label for="r-guests">Number of guests</label>
+          <input type="number" id="r-guests" name="guests" min="1" max="20" required>
+
+          <button class="button" type="submit">Reserve table</button>
+        </form>
+      </div>
+    </section>
+    
+    <section id="contact" class="beige">
+      <div class="container">
+        <h2>Contact and location</h2>
+        <div class="contact-box">
+          <p><strong>Address:</strong> Purok 1 Sayre Hwy, Dologon, Maramag, Bukidnon</p>
+          <p><strong>Hours:</strong> Daily, 9:00 AM - 9:00 PM (sample, update with real hours)</p>
+          <p><strong>Phone:</strong> 09XX XXX XXXX (add the real number)</p>
+        </div>
+      </div>
+    </section>
+</main>    
 
 </body>
 </html>
