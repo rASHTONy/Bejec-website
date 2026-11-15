@@ -44,6 +44,11 @@ nav a {
     background-color: #DCC7AA;
 }
 
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
 .logo {
   height: 56px;
   width: 56px;
@@ -58,3 +63,37 @@ nav a {
 .beige {
     background: #DCC7AA;
 }
+
+.hero h2 {
+  font-size: 2.4rem;
+  max-width: 700px;
+  margin: 0 auto 16px;
+}
+
+.hero p {
+  max-width: 560px;
+  margin: 0 auto 28px;
+}
+
+.button {
+  display: inline-block;
+  background: #5C4033;
+  color: #F8F5F0;
+  padding: 12px 24px;
+  border: 2px solid #5C4033;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button:hover {
+  background: #8B5E3C;
+  border-color: #8B5E3C;
+}
+
+.button-outline:hover {
+  color: #DCC7AA;
+}
+
