@@ -176,3 +176,10 @@ section {
   border-radius: 10px;
   border-left: 6px solid #8B5E3C;
 }
+
+footer {
+  background: #5C4033;
+  color: #DCC7AA;
+  text-align: center;
+  padding: 20px;
+}
