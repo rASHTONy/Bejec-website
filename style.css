@@ -8,6 +8,10 @@ h1 h2 h3 p {
   padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
   background: #8B5E3C;
   padding: 10px 24px;
